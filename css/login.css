@@ -1,0 +1,129 @@
+body{
+    background-image:url(../img/london.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divLogin{
+    position: absolute;
+    height:30%;
+    width:15%;
+    top:35%;
+    left:41%;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 5%;
+}
+
+.textboxLogusername{
+    position:absolute;
+    top:50%;
+    left:10%;
+    width:80%;
+    height:10%;
+    opacity: 0.5;
+}
+
+.textboxLogPassword{
+    position:absolute;
+    top:70%;
+    left:10%;
+    width:80%;
+    height:10%;
+    opacity: 0.5;
+    
+}
+
+#name{
+    position: absolute;
+    color: white;
+    font-size:30px;
+    left:33.5%;
+    top: 20%;;
+}
+
+#BtnLogin{
+    position:absolute;
+    top:85%;
+    left:10%;
+    width:80%;
+    height:10%;
+    background-color: brown;
+    border: 0ch;
+    z-index: 1;
+    opacity: 1;
+    color: white;
+}
+
+#Login2{
+    position: absolute;
+    height:90%;
+    width:90%;
+    background-color: black;
+    left:5%;
+    top:0%;
+    z-index: 1;
+}
+
+@media screen and (max-width:800px) {
+     #divLogin{
+        position: absolute;
+        height:30% !important;
+        width:70% !important;
+        top:35% !important;
+        left:15% !important;
+        background-color: black;
+        opacity: 0.5;
+        border-radius: 5%;
+    }
+    
+    .textboxLogusername{
+        position:absolute;
+        top:50%;
+        left:10%;
+        width:80%;
+        height:10%;
+        opacity: 0.5;
+    }
+    
+    .textboxLogPassword{
+        position:absolute;
+        top:70%;
+        left:10%;
+        width:80%;
+        height:10%;
+        opacity: 0.5;
+        
+    }
+    
+    #name{
+        position: absolute;
+        color: white;
+        font-size:30px;
+        left:33.5%;
+        top: 20%;;
+    }
+    
+    #BtnLogin{
+        position:absolute;
+        top:85%;
+        left:10%;
+        width:80%;
+        height:10%;
+        background-color: brown;
+        border: 0ch;
+        z-index: 1;
+        opacity: 1;
+        color: white;
+    }
+    
+    #Login2{
+        position: absolute;
+        height:90%;
+        width:90%;
+        background-color: black;
+        left:5%;
+        top:0%;
+        z-index: 1;
+    }
+}

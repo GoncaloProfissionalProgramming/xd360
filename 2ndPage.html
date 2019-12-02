@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>XD360</title>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/2ndPage.css">
+        <link rel="stylesheet" type="text/css" href="css/2ndPageResp.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="css/navbarVertical.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="charts.js"></script>
+        
+        
+       
+    </head>
+    <body>
+        <div class="nav">
+            <div class="nav-header">
+              <div class="nav-title">
+              XD360
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            <input type="checkbox" id="nav-check">
+            <div class="nav-links">
+              <a href="#">0.00€</a>
+              <a href="#">Terminais</a>
+              <a href="#">User</a>
+            </div>
+          </div>
+
+
+          <div class="sidenav">
+                    <a href="#about">Dashboard</a>
+                    <button class="dropdown-btn">Vendas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&darr;</button>
+                          <div class="dropdown-container">
+                            <a href="#">Familias</a>
+                            <a href="#">Clientes</a>
+                            <a href="#">Ofertas</a>
+                          </div>
+                    <button class="dropdown-btn">Transações&nbsp;&nbsp;&nbsp;&nbsp;&darr;</button>
+                          <div class="dropdown-container">
+                            <a href="#">Acumuladas</a>
+                            <a href="#">Por Data</a>
+                          </div>
+                    <button class="dropdown-btn">Consultas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&darr;</button>
+                          <div class="dropdown-container">
+                            <a href="#">Movimentos</a>
+                            <a href="#">Registo Ponto</a>
+                          </div>
+                    <button class="dropdown-btn">Listas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&darr;</button>
+                          <div class="dropdown-container">
+                            <a href="#">Clientes</a>
+                          </div>
+                    <a href="#about">Documentos</a>
+                </div>  
+                
+        <button id="btnfixed"><a href="#Vendas">UP</button></a>
+        <div id="Vendas">
+            
+            <div id="VendasTitle">&nbsp;&nbsp;&nbsp;&nbsp;Vendas</div>
+            <div id="myCanvas"></div>
+            
+        </div>
+        <div id="Hoje">
+          <div id="Title">&nbsp;&nbsp;&nbsp;&nbsp;Hoje</div>
+          <div id="Money">&nbsp;&nbsp;&nbsp;&nbsp;0,00€</div>
+          <div id="AAM">Até ao momento</div>
+        </div>
+
+        <div id="Ontem">
+          <div id="Title">&nbsp;&nbsp;&nbsp;&nbsp;Ontem</div>
+          <div id="Money">&nbsp;&nbsp;&nbsp;&nbsp;0,00€</div>
+        </div>
+
+        <div id="U7D">
+          <div id="Title">&nbsp;&nbsp;&nbsp;&nbsp;Últimos 7 Dias</div>
+          <div id="Money">&nbsp;&nbsp;&nbsp;&nbsp;0,00€</div>
+        </div>
+
+        <div id="UM">
+          <div id="Title">&nbsp;&nbsp;&nbsp;&nbsp;Último Mês</div>
+          <div id="Money">&nbsp;&nbsp;&nbsp;&nbsp;0,00€</div>
+        </div>
+
+        <div id="T1">
+          <div id="Title">&nbsp;&nbsp;&nbsp;&nbsp;1ºTrimestre</div>
+          <div id="Money">&nbsp;&nbsp;&nbsp;&nbsp;0,00€</div>
+        </div>
+
+        <div id="T2">
+          <div id="Title">&nbsp;&nbsp;&nbsp;&nbsp;2ºTrimestre</div>
+          <div id="Money">&nbsp;&nbsp;&nbsp;&nbsp;0,00€</div>
+        </div>
+
+        <div id="T3">
+          <div id="Title">&nbsp;&nbsp;&nbsp;&nbsp;3ºTrimestre</div>
+          <div id="Money">&nbsp;&nbsp;&nbsp;&nbsp;0,00€</div>
+        </div>
+
+        <div id="T4">
+          <div id="Title">&nbsp;&nbsp;&nbsp;&nbsp;4ºTrimestre</div>
+          <div id="Money">&nbsp;&nbsp;&nbsp;&nbsp;0,00€</div>
+        </div>
+        <div id="CanvasT"></div>
+        
+
+        <div id="Vendedores">
+          <div id="VendedoresTitle">&nbsp;&nbsp;&nbsp;&nbsp;Vendedores</div>
+          <div id="CanvasVendedores"></div>
+        </div>
+
+        <div id="Terminais">
+          <div id="TerminaisTitle">&nbsp;&nbsp;&nbsp;&nbsp;Terminais</div>
+          <div id="CanvasTerminais"></div>
+        </div>
+
+        <div id="Familias">
+          <div id="FamiliasTitle">&nbsp;&nbsp;&nbsp;&nbsp;Vendas</div>
+          <div id="FamiliasCanvas"></div>
+      </div>
+
+
+
+      <script>
+          /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+          var dropdown = document.getElementsByClassName("dropdown-btn");
+          var i;
+          
+          for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+            } else {
+            dropdownContent.style.display = "block";
+            }
+            });
+          }
+          </script>
+    </body>
+    </html>

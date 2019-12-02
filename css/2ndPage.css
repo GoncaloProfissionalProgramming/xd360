@@ -1,0 +1,289 @@
+/* Daqui para baixo é a parte das Vendas */ 
+#Vendas{
+    position: absolute;
+    height:40%;
+    width:89%;
+    left:10%;
+    top:20%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+    
+}
+
+#VendasTitle{
+    position: absolute;
+    height:10%;
+    width:100%;
+    top:0%;
+    background-color: grey;
+    text-align: middle;
+    vertical-align: middle;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#myCanvas{
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:10%;
+    background-color: #4e4e4e;
+    border-bottom: 0.5px solid black;
+}
+/* Daqui para baixo é a parte do Hoje */ 
+#Hoje{
+    position: absolute;
+    height:10%;
+    width:20%;
+    left:10%;
+    top:66%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+}
+
+#Title{
+    position: absolute;
+    height:35%;
+    width:100%;
+    top:0%;
+    background-color: grey;
+    text-align: middle;
+    vertical-align: middle;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 2px solid white;
+
+}
+
+#Money{
+    position: absolute;
+    height:35%;
+    width:100%;
+    top:50%;
+    text-align: middle;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+#AAM{
+    position: absolute;
+    height:35%;
+    width:100%;
+    top:65%;
+    left:68%;
+    text-align: middle;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 15px;
+}
+/* Daqui para baixo é a parte do Ontem */ 
+#Ontem{
+    position: absolute;
+    height:10%;
+    width:20%;
+    left:33%;
+    top:66%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+}
+
+/* Daqui para baixo é a parte dos últimos 7 dias */ 
+#U7D{
+    position: absolute;
+    height:10%;
+    width:20%;
+    left:56%;
+    top:66%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+}
+
+/* Daqui para baixo é a parte do ultimo mes */ 
+#UM{
+    position: absolute;
+    height:10%;
+    width:20%;
+    left:79%;
+    top:66%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+}
+
+/* Daqui para baixo é a parte do Trimestre 1 */ 
+#T1{
+    position: absolute;
+    height:10%;
+    width:20%;
+    left:10%;
+    top:80%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+}
+
+/* Daqui para baixo é a parte do Trimestre 2 */ 
+#T2{
+    position: absolute;
+    height:10%;
+    width:20%;
+    left:33%;
+    top:80%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+}
+
+/* Daqui para baixo é a parte do Trimestre 3 */ 
+#T3{
+    position: absolute;
+    height:10%;
+    width:20%;
+    left:56%;
+    top:80%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+}
+
+/* Daqui para baixo é a parte do Trimetre 4 */ 
+#T4{
+    position: absolute;
+    height:10%;
+    width:20%;
+    left:79%;
+    top:80%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+}
+
+/* Canvas Trimestres */ 
+#CanvasT{
+    position: absolute;
+    height:20%;
+    width:89%;
+    left:10%;
+    top:90%;
+    background-color: #4e4e4e;
+    border-bottom: 0.5px solid black;
+}
+
+/*Parte dos vendedores daqui para baixo*/
+#Vendedores{
+    position: absolute;
+    height:20%;
+    width:42.5%;
+    left:10%;
+    top:114%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+    
+}
+
+#VendedoresTitle{
+    position: absolute;
+    height:30%;
+    width:100%;
+    top:0%;
+    background-color: grey;
+    text-align: middle;
+    vertical-align: middle;
+    line-height: 55px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#CanvasVendedores{
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:30%;
+    background-color: #4e4e4e;
+    border-bottom: 0.5px solid black;
+}
+/*Parte dos terminais daqui para baixo*/
+#Terminais{
+    position: absolute;
+    height:20%;
+    width:42.5%;
+    left:56.5%;
+    top:114%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+    
+}
+
+#TerminaisTitle{
+    position: absolute;
+    height:30%;
+    width:100%;
+    top:0%;
+    background-color: grey;
+    text-align: middle;
+    vertical-align: middle;
+    line-height: 55px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#CanvasTerminais{
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:30%;
+    background-color: #4e4e4e;
+    border-bottom: 0.5px solid black;
+}
+/*Familias Parte daqui para baixo*/
+#Familias{
+    position: absolute;
+    height:40%;
+    width:89%;
+    left:10%;
+    top:158%;
+    background-color: #4e4e4e;
+    border-bottom: 1px solid black;
+    
+}
+
+#FamiliasTitle{
+    position: absolute;
+    height:10%;
+    width:100%;
+    top:0%;
+    background-color: grey;
+    text-align: middle;
+    vertical-align: middle;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#FamiliasCanvas{
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:10%;
+    background-color: #4e4e4e;
+    border-bottom: 0.5px solid black;
+}
+
+#btnfixed{
+    position: fixed;
+    height:6%;
+    width:3%;
+    left:95%;
+    top:90%;
+    background-color: black;
+    z-index: 1;
+    border: 0ch;
+    
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
